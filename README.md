@@ -331,6 +331,6 @@ anp-projet-n-2-port-mohammedia/
 
 **Marwane Hamouyat**  
 Stage — Agence Nationale des Ports (ANP), Port de Mohammedia  
-Octobre 2026
-
+Septembre 2026 - Octobre 2026 
+Encadrants: M.Jawad Ait Oughlad | M. Rabie Al Akhdar
 > Projet réalisé dans un laboratoire virtuel. Les configurations, adresses et captures présentées sont celles du lab ; toute reproduction sur un réseau réel doit être adaptée et sécurisée.
