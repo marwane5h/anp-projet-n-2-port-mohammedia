@@ -1,0 +1,39 @@
+name: port-mohammedia
+
+topology:
+  nodes:
+    fed-a-anp:
+      kind: cisco_vios
+      image: vrnetlab/cisco_vios:L2-20200929
+      mgmt-ipv4: 172.20.20.3
+
+    fed-a-capit:
+      kind: cisco_vios
+      image: vrnetlab/cisco_vios:L2-20200929
+      mgmt-ipv4: 172.20.20.4
+
+    fed-a-infra:
+      kind: cisco_vios
+      image: vrnetlab/cisco_vios:L2-20200929
+      mgmt-ipv4: 172.20.20.5
+
+    snmp-exporter:
+      kind: linux
+      image: prom/snmp-exporter:latest
+      mgmt-ipv4: 172.20.20.2
+
+    prometheus:
+      kind: linux
+      image: prom/prometheus:latest
+      mgmt-ipv4: 172.20.20.7
+      ports:
+        - "9090:9090"
+      binds:
+        - prometheus.yml:/etc/prometheus/prometheus.yml
+
+    grafana:
+      kind: linux
+      image: grafana/grafana:latest
+      mgmt-ipv4: 172.20.20.6
+      ports:
+        - "3000:3000"
