@@ -29,7 +29,7 @@ topology:
       ports:
         - "9090:9090"
       binds:
-        - prometheus.yml:/etc/prometheus/prometheus.yml
+        - ./prometheus.yml:/etc/prometheus/prometheus.yml
 
     grafana:
       kind: linux

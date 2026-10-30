@@ -1,3 +1,6 @@
 .clab.yml.bak
 *.log
 .DS_Store
+
+# Containerlab runtime
+clab-*/
