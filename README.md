@@ -109,7 +109,7 @@ Les adresses de management sont attribuées par Containerlab via la directive `m
 
 ```bash
 git clone https://github.com/marwane5h/anp-projet-n-2-port-mohammedia.git
-cd anp-projet-mohammedia
+cd anp-projet-n-2-port-mohammedia
 
 # Vérifier que l'image vIOS est disponible
 docker images | grep cisco_vios
@@ -306,7 +306,7 @@ Avant tout déploiement réel :
 ## 📁 Structure du dépôt
 
 ```text
-anp-projet-mohammedia/
+anp-projet-n-2-port-mohammedia/
 ├── docs/
 │   └── Rapport_Supervision_ANP_Mohammedia.pdf
 ├── screenshots/
