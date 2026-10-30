@@ -21,6 +21,8 @@ topology:
       kind: linux
       image: prom/snmp-exporter:latest
       mgmt-ipv4: 172.20.20.2
+      ports:
+        - "9116:9116"
 
     prometheus:
       kind: linux
